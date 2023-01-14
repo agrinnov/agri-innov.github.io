@@ -2,21 +2,20 @@
 #-------------------------------
 # General Site Settings
 
-title: HKAJ
+title: AGRINNOV
 logo:
-author: HOMAWOO Joseph
-description: This application is my portfolio
-email: homawoojoseph@gmail.com
-phone: +228 99152480
+author: Prince Konu
+description: This application is 
+email: agrinnov mail
+phone: your phone
 address: LOME,TOGO
-copyright: Copyright &copy; 2022 powered by [Jekyll & kross-jekyll](https://jekyllrb.com) 
-
+copyright: Copyright &copy; 2023 Build with<span style="color:red"> ♥</span> By<a style="color:red" href="https://bluetech-tg.github.io/" target="_blank"  rel="noopener noreferrer"> BlueTech.</a> All Right Reserved.
 menu:
   - { name: About, link: "/about" }
  # - { name: Blog, link: "/blog" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
-  - { name: CV, link: "/cv" }
+  #- { name: CV, link: "/cv" }
 
 #-------------------------------
 # Google Analytics Section
@@ -37,21 +36,20 @@ disqus-identifier: jerrykel
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Joseph HOMAWOO <br> Developer back-end and UX designer From LOME
+  hero-title: Hi! I’m <br> Prince Konu <br> ....... From LOME
 
 social:
   - { icon: "ti-facebook", link: "https://web.facebook.com/fernando.vilarios" }
   - { icon: "ti-instagram", link: "https://www.instagram.com/_jerrykel/" }
   - { icon: "ti-twitter", link: "https://twitter.com/Jerrykel_j" }
-  - { icon: "ti-github", link: "https://github.com/novenopatch/" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: I code  and design  beautifully simple things, and I love what I do.
+blurb: description.
 blurb-btn-link: "/about"
-blurb-btn-name: know more
+blurb-btn-name: en savoir plus
 
 # About Page
 
@@ -70,10 +68,7 @@ work-process:
 
 # My Team Section
 team:
-  - title: "Joseph HOMAWOO"
-    image: "assets/images/team/member-1.jpg"
-    designation: "Back-End Developer && UX Designer"
-    linkedin: ""
+
 
 
  # - title: "John Doe"
@@ -83,44 +78,16 @@ team:
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Savoir faire
 skills:
-  - { name: Java/Kotlin & Javafx, color: "#5473e6", value: "80%" }
-  - { name: Android & Flutter, color: "#fdb157", value: "70%" }
-  - { name: PHP & Symfony , color: "#fbb157", value: "80%" }
-  - { name: Python & Django  , color: "#9473e6", value: "80%" }
-  - { name: HTML/CSS/JS , color: "#fcbcaa", value: "70%" }
-  - { name: Git & Docker , color: "#ffccaa", value: "80%" }
-  - { name : Firebase and Aws, color: "#f473e6", value: "60%"}
-  - { name: Adobe Xd, color: "#bdecf6", value: "70%" }
-
+  - { name: Redaction de project, color: "#5473e6", value: "80%" }
+ 
 #-------------------------------
 # Exprerience Section
 
 experience-title: Experience
 experience:
-  - {
-      name: Technician Software,
-      icon: "icon-1.png",
-      date: "JAN 2020 - Dec 2020",
-      organization: "SIMPLEMENT VOTRE",
-      url: "",
-    }
-  - {
-      name: Junior UX & UI Designer,
-      icon: "icon-2.png",
-      date: "JAN 2021 - Feb 2021",
-      organization: "SANAM-Group",
-      url: "www.sanam-group.com",
-    }
-  - {
-      name: Back-End and Mobile Developer,
-      icon: "icon-2.png",
-      date: "Aug 2021 - Present",
-      organization: "SANAM-Group",
-      url: "www.sanam-group.com",
-    }
-
+ 
 #-------------------------------
 # Education Section
 
@@ -132,37 +99,21 @@ education:
       organization: "LOME University",
       url: "https://etu.univ-lome.tg/",
     }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2019",
-      organization: "LOME City High School",
-      url: "",
-    }
-
+ 
 
 #-------------------------------
 # Services Section
 
 services-title: Services
 services:
+
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "We give life to your graphic ideas.",
-      active: false, # Add true to select section
-    }
-  - {
-      name: Software Engineering,
+      name: redation de project,
       icon: ti-panel,
-      description: "I conceive and keeps us all type of computer application",
+      description: "description",
       active: true, # Add true to select section
     }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "We create graphic interfaces and meet your needs in the most optimal way along modern code but also your identity.",
-      active: false, # Add true to select section
-    }
+  
   
 
 #-------------------------------
@@ -170,82 +121,15 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/signals.png"
-    url: "https://github.com/novenopatch/Signal-Apps"
+ 
 
-  - image: "assets/images/portfolio/safe.png"
-    url: "https://github.com/novenopatch/MyPasswordManager"
-
-  - image: "assets/images/portfolio/snake.png"
-    url: "https://github.com/novenopatch/pygame-test"
-
-  - image: "assets/images/portfolio/space.png"
-    url: "https://github.com/novenopatch/pygame-test"
-
-  - image: "assets/images/portfolio/superquiz.png"
-    url: "https://github.com/novenopatch/quizquiz"
-
+ 
 # Portfolio Page
 portfolio-label:
-  - { title: "Mobile App ", type: "Mobile developement" }
-  - { title: "Dektop App ", type: "Desktop developement" }
-  - { title: "Web App ", type: "Web developement" }
-  - { title: "Game", type: "Game developement" }
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+ 
 
 portfolio-items:
-  - image: "assets/images/portfolio/signals.png"
-    url: "https://github.com/novenopatch/Signal-Apps"
-    portfolio-type:
-      - type: "Mobile developement"
-      - type: "design"
-
-  - image: "assets/images/portfolio/safe.png"
-    url: "https://github.com/novenopatch/MyPasswordManager"
-    portfolio-type:
-      - type: "Mobile developement"
-      - type: "design"
-
-  - image: "assets/images/portfolio/snake.png"
-    url: "https://github.com/novenopatch/pygame-test"
-    portfolio-type:
-      - type: "Game developement"
-
-  - image: "assets/images/portfolio/space.png"
-    url: "https://github.com/novenopatch/pygame-test"
-    portfolio-type:
-      - type: "Game developement"
-
-  - image: "assets/images/portfolio/superquiz.png"
-    url: "https://github.com/novenopatch/quizquiz"
-    portfolio-type:
-      - type: "Mobile developement"
-      - type: "Game developement"
-      - type: "design"
-
-  - image: "assets/images/portfolio/java-c.png"
-    url: "https://github.com/novenopatch/convertisseurTemp"
-    portfolio-type:
-      - type: "Desktop developement"
-      - type: "design"
-  - image: "assets/images/portfolio/javafx.png"
-    url: "https://github.com/novenopatch/safepasswordfx"
-    portfolio-type:
-      - type: "Desktop developement"
-      - type: "design"
-      - type: "illustration"
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+  
 
  
 
@@ -263,12 +147,11 @@ testimonial-items:
 # Client Slider Section
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/sanam-logo.png"
-    url: "www.sanam-group.com"
+ 
 
 
 #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: homawoojoseph@gmail.com
+contact-email: prince send me your mail
